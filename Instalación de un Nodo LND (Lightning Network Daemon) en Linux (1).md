@@ -334,7 +334,7 @@ lncli create
 ```
 Sigue los pasos que se te indican
 >Input wallet password: (Anotamos el password que generamos el paso anterior)
-Confirm password: 
+>Confirm password: 
 
 Para crear una nueva seed introduce la opción `n`:
 
@@ -388,31 +388,31 @@ Deberás ver algo como la siguiente información:
 
 ---
 >{
-    "version": "0.15.0-beta commit=v0.15.0-beta",
-    "commit_hash": "6bd30047c1b1188029e8af6ee8a135cf86e7dc4b",
-    "identity_pubkey": "027c2c4c6f08e7a93e694786fd17b3db7719985c9d65f6be38f2d081ed0209e5b4",
-    "alias": "027c2c4c6f08e7a93e69",
-    "color": "#3399ff",
-    "num_pending_channels": 0,
-    "num_active_channels": 0,
-    "num_inactive_channels": 0,
-    "num_peers": 2,
-    "block_height": 2442286,
-    "block_hash": "0000000000000015008f3181d704b3f862a287fb94bc90bbf244a7b5adf9ca5c",
-    "best_header_timestamp": "1689566771",
-    "synced_to_chain": true,
-    "synced_to_graph": false,
-    "testnet": true,
-    "chains": [
-        {
-            "chain": "bitcoin",
-            "network": "mainnet"
-        }
-    ],
-    "uris": [
-    ],
-    "features": { … }
-}
+>    "version": "0.15.0-beta commit=v0.15.0-beta",
+>    "commit_hash": "6bd30047c1b1188029e8af6ee8a135cf86e7dc4b",
+>    "identity_pubkey": "027c2c4c6f08e7a93e694786fd17b3db7719985c9d65f6be38f2d081ed0209e5b4",
+>    "alias": "027c2c4c6f08e7a93e69",
+>    "color": "#3399ff",
+>    "num_pending_channels": 0,
+>    "num_active_channels": 0,
+>    "num_inactive_channels": 0,
+>    "num_peers": 2,
+>    "block_height": 2442286,
+>    "block_hash": "0000000000000015008f3181d704b3f862a287fb94bc90bbf244a7b5adf9ca5c",
+>    "best_header_timestamp": "1689566771",
+>    "synced_to_chain": true,
+>    "synced_to_graph": false,
+>    "testnet": true,
+>    "chains": [
+>        {
+>            "chain": "bitcoin",
+>            "network": "mainnet"
+>        }
+>    ],
+>    "uris": [
+>    ],
+>    "features": { … }
+>}
 ---
 El único problema hasta aquí es que para este momento tenemos cuando menos 2 terminales abiertas, una con el nodo de `lnd` mostrando todos sus procesos y otra para operarlo con `lncli`, y debemos dejarlas abiertas para poder operar el nodo.
 
