@@ -421,11 +421,10 @@ Deberás ver algo como la siguiente información:
 >
 >    "chains": [
 >
->        {
->            "chain": "bitcoin",
->            "network": "mainnet"
->
->        }
+        {
+           "chain": "bitcoin",
+           "network": "mainnet"
+        }
 >
 >    ],
 >
