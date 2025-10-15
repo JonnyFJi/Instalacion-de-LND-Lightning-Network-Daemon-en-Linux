@@ -334,6 +334,7 @@ lncli create
 ```
 Sigue los pasos que se te indican
 >Input wallet password: (Anotamos el password que generamos el paso anterior)
+>
 >Confirm password: 
 
 Para crear una nueva seed introduce la opción `n`:
