@@ -28,7 +28,7 @@ En el siguiente enlace puedes encontrar la documentación de referencia:
 [LND](https://github.com/lightningnetwork/lnd)
 
 
-# LND - "Lightning Network Daemon"
+## LND - "Lightning Network Daemon"
 LND, o "Lightning Network Daemon", es una de las implementaciones más avanzadas y utilizadas para operar nodos en la Lightning Network de Bitcoin, desarrollada por Lightning Labs. 
 Funciona como un software de segundo nivel (Layer 2) que permite enviar y recibir transacciones de Bitcoin casi instantáneamente y con tarifas muy bajas, abriendo canales de pago bidireccionales y permitiendo un gran volumen de pagos fuera de la cadena principal mediante contratos multi-firma.
 
@@ -48,7 +48,7 @@ Funciona como un software de segundo nivel (Layer 2) que permite enviar y recibi
 
 LND representa el núcleo tecnológico para quienes desean operar nodos Lightning, ofrecer servicios de pagos instantáneos, o desarrollar aplicaciones sobre la red Lightning de Bitcoin.
 
-# Instalar Programas
+## Instalar Programas
 Primero necesitamos instalar `GO`
 Podemos comprobar la última versión estable de `go` en su página oficial: https://golang.org/ 
 1. Descargamos el archivo `.tar`:
@@ -103,7 +103,7 @@ go version
 Deberíamos recibir el siguiente output:
 >`go version go1.12.7 linux/amd64` o la versión que tengas instalada.
 
-# Instalar Dependencias
+## Instalar Dependencias
 Actualizamos el sistema para instalar las dependencias.
 ```shell
 sudo apt-get update
@@ -111,7 +111,7 @@ sudo apt-get install -y autoconf automake build-essential git libtool libgmp-dev
 sudo pip3 install --user mrkd
 ```
 
-# Instalar LND
+## Instalar LND
 Ahora vamos a proceder con la instalación de LND, para ello es necesario descargar el código fuente ejecutando el siguiente comando:
 ```shell
 git clone https://github.com/lightningnetwork/lnd
@@ -297,7 +297,7 @@ Guardamos y cerramos el archivo.
 
 Ya está... `LND` está instalado y listo...
 
-# Iniciar LND
+## Iniciar lnd
 
 Para iniciar el nodo escribimos:
 ```shell
