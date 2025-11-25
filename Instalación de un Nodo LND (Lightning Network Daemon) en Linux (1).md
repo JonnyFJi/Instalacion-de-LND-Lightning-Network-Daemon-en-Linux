@@ -224,10 +224,13 @@ alias=<tu_alias ⚡>
 bitcoin.active=true
 
 ; Use Bitcoin's main network.
-bitcoin.mainnet=true
+; bitcoin.mainnet=true
 
 ; Use Bitcoin's test network.
 ; bitcoin.testnet=true
+
+; Use Bitcoin's signet network.
+bitcoin.signet=true
 
 ; Use the bitcoind back-end
 bitcoin.node=bitcoind
